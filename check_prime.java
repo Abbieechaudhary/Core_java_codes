@@ -19,33 +19,5 @@ public class check_prime {
         else{
             System.out.println("not prime ");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        int input1=sc.nextInt();
-//        int fact=1;
-//        for(int i=1;i<=input1;i++)
-//        {
-//            fact=fact*i;
-//            System.out.println(fact);
-//        }
-
-
-    }
+     }
 }
