@@ -4,17 +4,11 @@ import java.util.*;
 public class addinglastnumber {
 
     public static void main(String[] args) {
-    Scanner sc= new Scanner(System.in);
+    Scanner sc= new Scanner(System.in);   //Scanner sc to take inputs
 
-        int input1=sc.nextInt();
-        int input2=sc.nextInt();
+        int input1=sc.nextInt();     //enter the first input
+        int input2=sc.nextInt();    //enetr the second input
 
-//        if ((input1>0&&input1<10)&&(input2>0&&input2<10)){
-//
-//            int sum=(input1%10)+(input2%10);
-//            System.out.println("sum= "+sum);
-//
-//        }
         if (input1<0&&input2<0) {
             int input3 = 0 - input1 % 10;
             int input4 = 0 - input2 % 10;
