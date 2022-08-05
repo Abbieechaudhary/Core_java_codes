@@ -35,19 +35,5 @@ public class addinglastnumber {
              int sum4=(input9+input10);
             System.out.println("sum4="+sum4);
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
