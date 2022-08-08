@@ -5,7 +5,7 @@ public class print_number_left_to_right {
      int temp=n;
      while(temp!=0){
          temp/=10;
-         node++;
+         node++;    
      }
      int div=(int)Math.pow(10,node-1);
      while(div!=0){
@@ -16,7 +16,10 @@ public class print_number_left_to_right {
 
 
      }
-
+         //       output:
+         //          7
+         //          5
+         //          6
 
         }
 
