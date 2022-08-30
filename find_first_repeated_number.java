@@ -1,28 +1,17 @@
 class find_first_repeated_number {
     public int find_first(int[] num) {
-//        int min=-1;
-//        HashSet <Integer> set=new HashSet<>();
-//        for(int i=0;i<num.length;i++){
-//            if (set.contains(num[i])){
-//                min=i;
-//                break;
-//            }
-//            else{
-//                set.add(num[i]);
-//            }
-//        }
-//        return num[min];
-        int []arr=new int[6];
-        int min=-1;
-        for(int i=0;i< num.length;i++){
-                if (num[i] == arr[i]) {
-                    min = i;
-                    break;
-                } else {
-                    arr = num;
-                }
-            }
-        return num[min];
+       int min=-1;
+       HashSet <Integer> set=new HashSet<>();
+       for(int i=0;i<num.length;i++){
+           if (set.contains(num[i])){
+               min=i;
+               break;
+           }
+           else{
+               set.add(num[i]);
+           }
+       }
+       return num[min];
     }
 
     public static void main(String[] args) {
